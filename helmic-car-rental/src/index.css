@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "source sans 3", sans-serif;
+    font-family: "source sans 3", sans-serif; 
 }
 
 /* pre define style*/
@@ -73,7 +73,7 @@ section{
 }
 
 .btn:hover{
-    color: #fff;
+    color: #eff1f4;
     background: #000d6b;
 }
 
