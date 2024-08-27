@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Container, Row, Col } from "reactstrap"
 import { Link, NavLink } from "react-router-dom";
-
+import logo from "../../assets/all-images/logo2.png"
 
 import "../../styles/header.css";
 
@@ -78,9 +78,9 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i class="ri-car-fill"></i>
+                    {/* <i class="ri-car-fill"></i>  */}
                     <span>
-                      Helmic <br /> Group company limited
+                    <img src={logo} alt="" className='flex' />
                     </span>
                   </Link>
                 </h1>

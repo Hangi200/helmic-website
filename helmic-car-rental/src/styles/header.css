@@ -41,11 +41,11 @@
   /* ============ header middle style =========== */
 
   .header__middle {
-    padding: 20px 0px;
+    padding: 20px 0;
   }
-
+  
   .logo h1 a span {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
   
   .logo h1 a i {
@@ -58,16 +58,24 @@
     font-weight: 700;
   }
   
-  .logo h1 {
-    line-height: 1.5rem;
+  .logo h1  img {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally within its container */
   }
+  
+  
+  /* Header location styles */
   .header__location span i {
     font-size: 1.2rem;
     color: #000d6b;
   }
   
   .header__location-content h4 {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #000d6b;
   }
@@ -75,12 +83,12 @@
   .header__location-content h6 {
     font-weight: 600;
   }
-
+  
+  /* Header button styles */
   .header__btn {
     background: #000d6b !important;
     padding: 10px 20px;
     border: none;
-    outline: none;
     border-radius: 5px;
   }
   
@@ -97,6 +105,7 @@
   .header__btn a:hover {
     color: #fff;
   }
+  
 
   .main__navbar {
     padding: 15px 0px;
