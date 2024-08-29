@@ -1,3 +1,15 @@
+.about__section{
+  background: #000d6b;
+  height: fit-content;
+}
+
+.section__subtitle{
+  color: #fff;
+}
+.section__title{
+  color: #fff;
+}
+
 .about__section-item {
     column-gap: 3rem;
   }

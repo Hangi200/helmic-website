@@ -2,28 +2,38 @@
     background: #000d6b;
     padding-top: 50px;
     padding-bottom: 15px;
+   
   }
   
-  .footer__logo i {
+  /* .footer__logo i {
     color: #fff;
-    font-weight: 400;
+    font-size: 400px;
+    background-image: url("../assets/all-images/helmiclogo.png");
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -150px;
+    margin-top: 15px;
+    line-height: 30px;
   }
   
   .footer__logo span {
     color: #fff;
     font-weight: 400;
-    font-size: rem;
+    font-size: .9rem;
   }
   
   .footer__logo-content {
     color: rgba(255, 255, 255, 0.715);
     margin-top: 15px;
     line-height: 30px;
-  }
+  } */
   
   .quick__link {
     border: none !important;
     background: transparent !important;
+    padding-left: 400px;
+    align-items: center;
   }
   
   .quick__link a {
@@ -44,6 +54,10 @@
   .office__info {
     color: rgba(255, 255, 255, 0.715);
     font-weight: 300;
+  }
+  .section__description{
+    color: #b4b4b4;
+    
   }
   
   .newsletter {

@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
-import logo from "../../assets/all-images/logo.svg"
+import logo from "../../assets/all-images/helmiclogo.png"
 const quickLinks = [
   {
     path: "/about",
@@ -37,24 +37,24 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="12">
+          {/* <Col lg="4" md="4" sm="12">
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i> 
+                  <i class="icon"><img src={logo} alt="" className='flex' /></i> 
                   <span>
-                    Helmic Group <br /> Company Limited
+                    Helmic Car <br /> Rental
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            Helmic Car Rental, is a member of Helmic Group Company Ltd. We not only pride
+ourselves on being a leading car rental company offering premium-quality cars and a
+highly efficient service, but we are also a company that can meet your every need,
+taking you anywhere that you might want to go.
             </p>
-          </Col>
+          </Col> */}
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">

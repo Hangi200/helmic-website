@@ -1,12 +1,12 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/150prado-car.png";
+import img02 from "../all-images/coaster.png";
+import img03 from "../all-images/harrier.png";
+import img04 from "../all-images/vanguard-car.png";
+import img05 from "../all-images/toyota.png";
+import img06 from "../all-images/toyota-hiace.png";
+import img07 from "../all-images/coster-car.jpeg";
+import img08 from "../all-images/prado4.jpg";
 
 const carData = [
   {
@@ -75,15 +75,15 @@ const carData = [
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Toyota",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Toyota RAV4",
     imgUrl: img05,
-    model: "Model-2022",
+    model: "Model-2013",
     price: 45,
     speed: "20kmpl",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Seat belt",
     automatic: "Automatic",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -138,4 +138,4 @@ const carData = [
   },
 ];
 
-export default carData;
+export default carData; 
