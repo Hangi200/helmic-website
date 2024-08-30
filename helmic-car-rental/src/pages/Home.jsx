@@ -8,6 +8,8 @@ import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
 import CarItem from "../components/UI/CarItem";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+import Testimonial from "../components/UI/Testimonial";
+import BlogList from "../components/UI/BlogList";
 
 
 const Home = () => {
@@ -39,8 +41,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle1">See our</h6>
-              <h2 className="section__title1">Popular Services</h2>
+              {/* <h6 className="section__subtitle1">See our</h6> */}
+              <h2 className="section__title1">Our Services</h2>
             </Col>
 
             <ServicesList />
@@ -52,8 +54,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              {/* <h6 className="section_subtitle"></h6> */}
+              <h2 className="section_title">Our Cars</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -64,6 +66,34 @@ const Home = () => {
       </section>
        {/* =========== become a driver section ============ */}
        <BecomeDriverSection />
+
+         {/* =========== testimonial section =========== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-4 text-center">
+              {/* <h6 className="section_subtitle"></h6> */}
+              <h2 className="section_title">Our Clients</h2>
+            </Col>
+
+            <Testimonial />
+          </Row>
+        </Container>
+      </section>
+       {/* =============== blog section =========== */}
+       <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Explore our blogs</h6>
+              <h2 className="section_title">Explore our blogs</h2>
+            </Col>
+
+            <BlogList />
+          </Row>
+        </Container>
+      </section>
+
 
     </Helmet>
 

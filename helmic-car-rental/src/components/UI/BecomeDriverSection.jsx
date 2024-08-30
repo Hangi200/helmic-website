@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
-import driverImg from "../../assets/all-images/150prado-car.png";
+import driverImg from "../../assets/all-images/fortuner-car.jpeg";
 
 const BecomeDriverSection = () => {
   return (
