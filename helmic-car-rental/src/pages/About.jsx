@@ -31,31 +31,35 @@ const About = () => {
                   Our Vision
                 </h2>
 
-                <p className="section__description">
+                <p className="section_description">
                 From the very day it was established, Helmic Car Rental has a clear vision: that of
 continuously developing this company into a premier one-stop car rental service
 boasting international standards.
                 </p>
-
-                <p className="section__description">
+               
+                <p className="section_description">
                 Because of this devote commitment, the
 company is now able to offer useful advice on strategic vehicle planning to best
 suit the exacting requirements of many different types of company.
                 </p>
-
-                <div className=" d-flex align-items-center gap-3 mt-4">
-                  <span className="fs-4">
-                    <i class="ri-phone-line"></i>
-                  </span>
-
-                  <div>
-                    <h6 className="section_subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
-                  </div>
                 </div>
+                   
+              <div className="about__page-content">
+                <h2 className="section_title">
+                  Our Mission
+                </h2>
+
+                <p className="section_description">
+               - To continuously increase quality and standards of services. <br /> 
+ - To increase the number of branches so as to be able to offer nationwide cover. <br /> 
+- To develop state-of-the-art technology so as to meet customer demands quickly and conveniently. <br />
+- To organise continuous staff training program so that the company can maintain high quality standards of service and offer excellent management.
+                </p>
               </div>
-            </Col>
-          </Row>
+                </Col>
+           
+           </Row>
+           
         </Container>
       </section>
 
