@@ -4,11 +4,15 @@ import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/nosa.jpg";
 import ava02 from "../../assets/all-images/maktech.png";
-import ava03 from "../../assets/all-images/linksoft.png";
-
+// import ava03 from "../../assets/all-images/linksoft.jpg";
+import ava04 from "../../assets/all-images/Nokia-Logo1.png";
+import ava05 from "../../assets/all-images/tigo.png";
+import ava06 from "../../assets/all-images/gas1.jpg";
+import ava07 from "../../assets/all-images/bam-logo.png";
+import ava08 from "../../assets/all-images/jarlso.png";
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
+    name: "Nosa Company",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -18,7 +22,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "David Lisa",
+    name: "Maktech Company",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -27,25 +31,62 @@ const OUR__MEMBERS = [
     imgUrl: ava02,
   },
 
-  {
-    name: "Hilton King",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava03,
-  },
+  // {
+  //   name: "Linksoft Company",
+  //   experience: "5 years of experience",
+  //   fbUrl: "#",
+  //   instUrl: "#",
+  //   twitUrl: "#",
+  //   linkedinUrl: "#",
+  //   imgUrl: ava03,
+  // },
 
   {
-    name: "Jhon Doe",
+    name: "Nokia Company",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava01,
+    imgUrl: ava04,
   },
+  {
+    name: "Tigo Company",
+    experience: "5 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: ava05,
+  },
+  {
+    name: "group 4 Securicor Company",
+    experience: "5 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: ava06,
+  },
+  {
+    name: "Bam group Company",
+    experience: "5 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: ava07,
+  },
+  {
+    name: "Bam group Company",
+    experience: "5 years of experience",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: ava08,
+  },
+  
 ];
 
 const OurMembers = () => {

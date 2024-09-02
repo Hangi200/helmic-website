@@ -75,15 +75,15 @@ const Header = () => {
      <Container>
           <Row>
             <Col lg="4" md="3" sm="4">
-              <div className="logo">
-                <h1>
+              <div className="logo d-flex align-items-center gap-2">
+                
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     {/* <i class="ri-car-fill"></i>  */}
-                    <span>
+                   
                     <img src={logo} alt="" className='flex' />
-                    </span>
+                    
                   </Link>
-                </h1>
+                
               </div>
             </Col>
 

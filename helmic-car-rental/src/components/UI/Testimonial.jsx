@@ -5,8 +5,12 @@ import "../../styles/testimonial.css";
 
 import ava01 from "../../assets/all-images/nosa.jpg";
 import ava02 from "../../assets/all-images/linksoft.png";
-import ava03 from "../../assets/all-images/gas.jpg";
+import ava03 from "../../assets/all-images/gas1.jpg";
 import ava04 from "../../assets/all-images/maktech.png";
+import ava05 from "../../assets/all-images/Nokia-Logo1.png";
+import ava06 from "../../assets/all-images/tigo-logo.png";
+
+
 
 const Testimonial = () => {
   const settings = {
@@ -42,12 +46,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        SENIOR BOOKKEEPER ACCOUNTS PAYABLE
-HEAD OFFICE
-T: +27 10 226 4000 EXT: 6311
-F: +27 86 504 6317
-E: johan.venter@nosa.co.za
-W: www.nosa.co.za
+ Nosa Group Formed in 1951 to reduce injuries and fatalities in the workplace, NOSA was acquired by MICROmega Holdings in 2005. Today, the company provides occupational health, safety and environmental risk management services and solutions
 
         </p>
 
@@ -64,10 +63,7 @@ W: www.nosa.co.za
       <div className="testimonial py-4 px-3">
         <p className="section__description">
           
-Link Soft Communications Systems (T)
-Limited Regent Estate
-P.O. Box 79982 Dar Es Salaam,
-Tanzania. Tel: +255 22 2126803
+        Linksoft is a telecommunications company providing services in GSM Site Infrastructure.Linksoft helps companies maintain and optimize their network infrastructure in order to serve thousands of communities.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -83,10 +79,7 @@ Tanzania. Tel: +255 22 2126803
       <div className="testimonial py-4 px-3">
         <p className="section__description">
           
-G4S Security Service (T) Limited
-Plot No.57 Uporoto Street, Ursino
-Estate P.O. Box 5555 Dar Es Salaa,
-Tanzania. Tel: +255 22 2761006
+        Group 4 Securicor plc is a leading international security services company operating in some 100 countries around the world with over 400,000 employees, was formed from the merger between Securicor plc and Group 4 Falck A/S's security business, which completed in July 2004.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -101,13 +94,7 @@ Tanzania. Tel: +255 22 2761006
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-Mbezi_Beach, Block H, Plot 2186 ,
-P.O.BOX 76401,
-Dar Es Salaam, Tanzania
-Office: +255 22 261 7782
-E-mail: ishekulamba@maktech.co.tz
-www.maktech.co.tz
-
+        MAKTECH AND TEL CO. LIMITED (Maktech) is a dynamic and the leading telecom Services Provider in Tanzania since 2001. We are engaged in the installation and maintenance of telecom Infrastructures and equipment..
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -115,6 +102,36 @@ www.maktech.co.tz
 
           <div>
             <h6 className="mb-0 mt-3">Maktech Company</h6>
+            <p className="section__description">Client</p>
+          </div>
+        </div>
+      </div>
+      <div className="testimonial py-4 px-3">
+        <p className="section__description">
+        Nokia Corporation, commonly referred to as Nokia, is a Finnish multinational telecommunications, information technology, and consumer electronics corporation, originally established as a pulp mill in 1865.
+
+        </p>
+
+        <div className="mt-3 d-flex align-items-center gap-4">
+          <img src={ava05} alt="" className="w-25 h-25 rounded-2" />
+
+          <div>
+            <h6 className="mb-0 mt-3">Nokia Company</h6>
+            <p className="section__description">Client</p>
+          </div>
+        </div>
+      </div>
+      <div className="testimonial py-4 px-3">
+        <p className="section__description">
+        Tigo is a telecommunication company in Tanzania. With over 13.5 million registered subscribers to their network, Tigo, directly and indirectly, employs over 300,000 Tanzanians including an extended network of customer service representatives.
+
+        </p>
+
+        <div className="mt-3 d-flex align-items-center gap-4">
+          <img src={ava06} alt="" className="w-25 h-25 rounded-2" />
+
+          <div>
+            <h6 className="mb-0 mt-3">Tigo Company</h6>
             <p className="section__description">Client</p>
           </div>
         </div>

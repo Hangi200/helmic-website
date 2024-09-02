@@ -14,7 +14,8 @@
     border: none;
     outline: none;
     background: #000d6b;
-    padding: 8px 0px;
+    padding: 8px 8px;
+    align-items: center;
   }
   
   .car__item-btn a {
@@ -26,14 +27,16 @@
   .car__item-btn a:hover {
     color: #fff;
   }
-  .car__btn-details {
+  /* .car__btn-details {
     background: #f9a826;
     border-radius: 0px 4px 4px 0px;
    
-  }
+  } */
 
   .car__btn-rent {
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+    
   }
   
   .car__item-content h4 {
@@ -68,6 +71,9 @@
     .car__item-btn {
       padding: 5px 10px;
       font-size: 0.9rem;
+      align-items: center;
+      
+      
     }
   }
   

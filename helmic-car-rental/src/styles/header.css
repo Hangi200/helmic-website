@@ -58,20 +58,25 @@
     font-weight: 700;
   }
   
-  .logo h1  img {
-    width: 50%;
+  .logo img {
+    width: 55%;
     height: auto;
-    padding: 20px;
+    padding-top: 20px 0px;
     transition: transform 0.3s ease;
-    display: block;
+    display: flexbox;
     margin: 0 auto; /* Centers the image horizontally within its container */
   }
   
   
   /* Header location styles */
+  .header__location{
+    padding-bottom: 20px 0px;
+    
+  }
   .header__location span i {
     font-size: 1.2rem;
     color: #000d6b;
+    display: flex;
   }
   
   .header__location-content h4 {
@@ -176,6 +181,14 @@
   
     .mobile__menu {
       display: block;
+    }
+    .logo img {
+      width: 100px;
+      height: auto;
+      padding-top: 20px 0px;
+      transition: transform 0.3s ease;
+      display: flexbox;
+      margin: 0 auto; /* Centers the image horizontally within its container */
     }
   
     .navigation {

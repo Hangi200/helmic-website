@@ -30,14 +30,14 @@ const CarItem = (props) => {
               <i class="ri-timer-flash-line"></i> {speed}
             </span>
           </div>
-
-          <button className=" w-50 car__item-btn car__btn-rent">
+        <center>
+          <button className=" w-50 car__item-btn  car__btn-rent">
             <Link to={`/cars/${carName}`}>Book</Link>
           </button>
-
-          <button className=" w-50 car__item-btn car__btn-details">
+          </center>
+          {/* <button className=" w-50 car__item-btn car__btn-details">
             <Link to={`/cars/${carName}`} className="details">Details</Link>
-          </button>
+          </button> */}
         </div>
       </div>
     </Col>

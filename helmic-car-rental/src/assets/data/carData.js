@@ -1,12 +1,13 @@
 // import all images from assets/images directory
-import img01 from "../all-images/150prado-car.png";
+import img01 from "../all-images/hillux-car.png";
 import img02 from "../all-images/coaster.png";
 import img03 from "../all-images/harrier.png";
-import img04 from "../all-images/vanguard-car.png";
+import img04 from "../all-images/fortuner.png";
 import img05 from "../all-images/toyota.png";
 import img06 from "../all-images/toyota-hiace.png";
 import img07 from "../all-images/coster-car.jpeg";
 import img08 from "../all-images/prado4.jpg";
+import img09 from "../all-images/land-cruiser.png";
 
 const carData = [
   {
@@ -16,7 +17,7 @@ const carData = [
     carName: "prado",
     imgUrl: img01,
     model: "model-150",
-    price: 50,
+    price: 150000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -29,10 +30,10 @@ const carData = [
     id: 2,
     brand: "Toyota",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Toyota Coster",
     imgUrl: img02,
     model: "Model-2022",
-    price: 50,
+    price: 180000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -43,12 +44,12 @@ const carData = [
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "Toyota",
     rating: 132,
-    carName: "BMW X3",
+    carName: "Harrier",
     imgUrl: img03,
     model: "Model-2022",
-    price: 65,
+    price: 90000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -61,10 +62,10 @@ const carData = [
     id: 4,
     brand: "Nissan",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Fortuner",
     imgUrl: img04,
     model: "Model-2022",
-    price: 70,
+    price: 150000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -107,12 +108,28 @@ const carData = [
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "Toyota",
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Toyota Coaster",
     imgUrl: img07,
     model: "Model 3",
-    price: 50,
+    price: 180000,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Manual",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
+
+  {
+    id: 8,
+    brand: "Toyota",
+    rating: 52,
+    carName: "Toyota Prado",
+    imgUrl: img08,
+    model: "Model 3",
+    price: 180000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -120,15 +137,14 @@ const carData = [
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
-
   {
-    id: 8,
-    brand: "Colorado",
+    id: 9,
+    brand: "Toyota",
     rating: 52,
-    carName: "Rolls Royce Colorado",
-    imgUrl: img08,
+    carName: "Toyota Land Cruiser",
+    imgUrl: img09,
     model: "Model 3",
-    price: 50,
+    price: 250000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
