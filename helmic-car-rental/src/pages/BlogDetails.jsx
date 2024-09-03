@@ -26,7 +26,7 @@ const BlogDetails = () => {
             <Col lg="8" md="8">
               <div className="blog__details">
                 <img src={blog.imgUrl} alt="" className="w-100" />
-                <h2 className="section__title mt-4">{blog.title}</h2>
+                <h2 className="section_title mt-4">{blog.title}</h2>
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog__author">
@@ -42,11 +42,11 @@ const BlogDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">{blog.description}</p>
+                <p className="section_description">{blog.description}</p>
                 <h6 className="ps-5 fw-normal">
                   <blockquote className="fs-4">{blog.quote}</blockquote>
                 </h6>
-                <p className="section__description">{blog.description}</p>
+                <p className="section_description">{blog.description}</p>
               </div>
 
               <div className="comment__list mt-5">
@@ -56,8 +56,8 @@ const BlogDetails = () => {
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
                     <h6 className=" fw-bold">David Visa</h6>
-                    <p className="section__description mb-0">14 July, 2022</p>
-                    <p className="section__description">
+                    <p className="section_description mb-0">14 July, 2022</p>
+                    <p className="section_description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eos nobis totam eius laborum molestias itaque minima
                       distinctio, quae velit tempore!
@@ -72,7 +72,7 @@ const BlogDetails = () => {
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
                   <h4>Leave a Comment</h4>
-                  <p className="section__description">
+                  <p className="section_description">
                     You must sign-in to make or comment a post
                   </p>
 

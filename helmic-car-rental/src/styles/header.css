@@ -58,21 +58,14 @@
     font-weight: 700;
   }
   
-  .logo img {
+  .header__location img {
     width: 55%;
     height: auto;
-    padding-top: 20px 0px;
     transition: transform 0.3s ease;
     display: flexbox;
-    margin: 0 auto; /* Centers the image horizontally within its container */
+   
   }
   
-  
-  /* Header location styles */
-  .header__location{
-    padding-bottom: 20px 0px;
-    
-  }
   .header__location span i {
     font-size: 1.2rem;
     color: #000d6b;
@@ -140,7 +133,7 @@
   }
   
   .nav__item:hover {
-    color: #f9a826;
+    color: #ffd700;
   }
   
   .search__box {
@@ -169,7 +162,7 @@
   }
   
   .nav__active {
-    color: #f9a826;
+    color: #ffd700;
   }
   
   @media only screen and (max-width: 768px) {

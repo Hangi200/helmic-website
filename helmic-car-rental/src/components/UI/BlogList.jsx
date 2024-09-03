@@ -25,7 +25,7 @@ const BlogItem = ({ item }) => {
           <Link to={`/blogs/${title}`} className="blog__title">
             {title}
           </Link>
-          <p className="section__description mt-3">
+          <p className="section_description mt-3">
             {description.length > 100
               ? description.substr(0, 100)
               : description}
@@ -36,16 +36,16 @@ const BlogItem = ({ item }) => {
           </Link>
 
           <div className="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between">
-            <span className="blog__author">
+            <span className="section_description">
               <i class="ri-user-line"></i> {author}
             </span>
 
             <div className=" d-flex align-items-center gap-3">
-              <span className=" d-flex align-items-center gap-1 section__description">
+              <span className=" d-flex align-items-center gap-1 section_description">
                 <i class="ri-calendar-line"></i> {date}
               </span>
 
-              <span className=" d-flex align-items-center gap-1 section__description">
+              <span className=" d-flex align-items-center gap-1 section_description">
                 <i class="ri-time-line"></i> {time}
               </span>
             </div>
