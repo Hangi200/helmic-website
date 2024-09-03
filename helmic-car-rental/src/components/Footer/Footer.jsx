@@ -73,9 +73,9 @@ taking you anywhere that you might want to go.
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
               <p className="office__info">Haile Selassie Road,<br></br> Sky Mall, Masaki, <br></br>Dar es salam, Tanzania</p>
-              <p className="office__info">Phone: +255 744 050 000</p>
+              <p className="office__info">Phone:  +255 752 500 508</p>
 
-              <p className="office__info">Email: korosov@helmicgroup.com</p>
+              <p className="office__info">Email: info@helmicgroup.com</p>
 
               <p className="office__info">Office Time: 8am - 5pm</p>
             </div>

@@ -8,19 +8,19 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "https://www.facebook.com/Helmictz/",
     icon: "ri-facebook-line",
   },
   {
-    url: "#",
+    url: "https://www.instagram.com/helmic_group?igsh=NTdgd215ZmExdHpw",
     icon: "ri-instagram-line",
   },
   {
-    url: "#",
+    url: "https://www.linkedin.com/in/nicholaus-koroso-9b9b38b9/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=tz",
     icon: "ri-linkedin-line",
   },
   {
-    url: "#",
+    url: "https://x.com/helmic_?t=JEcvmGqsNLHfJJlhJyOqEA&S=09",
     icon: "ri-twitter-line",
   },
 ];
