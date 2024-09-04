@@ -39,14 +39,13 @@ const navLinks = [
 
 
 const Header = () => {
-
   const menuRef = useRef(null);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
   return <header className="header">
 
-    <div className="header_top">
+    <div className=  "header_top">
       <Container>
         <Row>
           <Col lg='6' md='6' sm='6' >
@@ -54,7 +53,7 @@ const Header = () => {
             <span>Need Help?</span>
               <span className="header__top__help">
               <i class="ri-phone-fill"></i>
-              +255 744 050 000
+              +255 752 500 508
               </span>
           </div>
           </Col>
@@ -122,8 +121,8 @@ const Header = () => {
               className=" d-flex align-items-center justify-content-end "
             >
               <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i class="ri-phone-fill"></i> call us
+                <Link to="/cars">
+                   Rent with us
                 </Link>
               </button>
             </Col>

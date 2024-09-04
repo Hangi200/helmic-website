@@ -5,8 +5,8 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
-import PaymentMethod from "../components/UI/PaymentMethod";
-
+import PaymentMethod from "../components/UI/PaymentMethod";    
+// import "../../styles/car-details.css"
 const CarDetails = () => {
   const { slug } = useParams();
 
@@ -17,16 +17,16 @@ const CarDetails = () => {
   }, [singleCarItem]);
 
   return (
-    <Helmet title={singleCarItem.carName}>
+    <Helmet title={singleCarItem.carName} style={{ paddingTop: "80px" }}>
       <section>
         <Container>
           <Row>
             <Col lg="6">
-              <img src={singleCarItem.imgUrl} alt="" className="w-100" />
+              <img src={singleCarItem.imgUrl} alt="" className="w-100" style={{ paddingTop: "220px" }} />
             </Col>
 
             <Col lg="6">
-              <div className="car__info">
+              <div className="car__info" style={{ paddingTop: "220px" }}>
                 <h2 className="section_title">{singleCarItem.carName}</h2>
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
@@ -46,18 +46,18 @@ const CarDetails = () => {
                   </span>
                 </div>
 
-                <p className="section_description">
+                <p className="section_description" style={{ paddingTop: "0px" }} >
                   {singleCarItem.description}
                 </p>
 
                 <div
                   className=" d-flex align-items-center mt-3"
-                  style={{ columnGap: "4rem" }}
+                  style={{ columnGap: "4rem", paddingTop: "80px" }}
                 >
                   <span className=" d-flex align-items-center gap-1 section_description">
                     <i
                       class="ri-roadster-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#ffd700" }}
                     ></i>{" "}
                     {singleCarItem.model}
                   </span>
@@ -65,7 +65,7 @@ const CarDetails = () => {
                   <span className=" d-flex align-items-center gap-1 section_description">
                     <i
                       class="ri-settings-2-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#ffd700" }}
                     ></i>{" "}
                     {singleCarItem.automatic}
                   </span>
@@ -73,7 +73,7 @@ const CarDetails = () => {
                   <span className=" d-flex align-items-center gap-1 section_description">
                     <i
                       class="ri-timer-flash-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#ffd700" }}
                     ></i>{" "}
                     {singleCarItem.speed}
                   </span>
@@ -84,14 +84,14 @@ const CarDetails = () => {
                   style={{ columnGap: "2.8rem" }}
                 >
                   <span className=" d-flex align-items-center gap-1 section_description">
-                    <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
+                    <i class="ri-map-pin-line" style={{ color: "#ffd700" }}></i>{" "}
                     {singleCarItem.gps}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section_description">
                     <i
                       class="ri-wheelchair-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#ffd700" }}
                     ></i>{" "}
                     {singleCarItem.seatType}
                   </span>
@@ -99,7 +99,7 @@ const CarDetails = () => {
                   <span className=" d-flex align-items-center gap-1 section_description">
                     <i
                       class="ri-building-2-line"
-                      style={{ color: "#f9a826" }}
+                      style={{ color: "#ffd700" }}
                     ></i>{" "}
                     {singleCarItem.brand}
                   </span>
