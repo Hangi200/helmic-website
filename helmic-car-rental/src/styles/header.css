@@ -217,7 +217,7 @@
     }
   }
 
-  @media only screen and (max-width: 1440px) {
+  /* @media only screen and (max-width: 1440px) {
     .header__location img {
       width: 100%;
       height: auto;
@@ -225,4 +225,4 @@
       display: flexbox;
      
     }
-  }
+  } */

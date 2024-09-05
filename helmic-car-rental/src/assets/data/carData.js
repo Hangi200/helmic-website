@@ -1,5 +1,5 @@
 // import all images from assets/images directory
-import img01 from "../all-images/hillux-car.png";
+import img01 from "../all-images/cruiser1.png";
 import img02 from "../all-images/coaster.png";
 import img03 from "../all-images/harrier.png";
 import img04 from "../all-images/fortuner.png";
