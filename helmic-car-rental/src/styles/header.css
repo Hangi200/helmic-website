@@ -217,9 +217,9 @@
     }
   }
 
-  @media only screen and (max-width: 1440px) {
+  @media only screen and (max-width: 995px) {
     .header__location img {
-      width: 100%;
+      width: 55%;
       height: auto;
       transition: transform 0.3s ease;
       display: flexbox;
