@@ -16,7 +16,7 @@ const carData = [
     rating: 112,
     carName: "Toyota pickup",
     imgUrl: img01,
-    model: "model-150",
+    name: "Toyota Pickup",
     price: 200000,
     speed: "20kmpl",
     gps: "GPS Navigation",
