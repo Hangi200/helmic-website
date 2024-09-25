@@ -21,11 +21,11 @@ const CarDetails = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="6">
-              <img src={singleCarItem.imgUrl} alt="" className="w-100" style={{ paddingTop: "220px" }} />
+            <Col lg="4">
+              <img src={singleCarItem.imgUrl} alt="" className="w-100" style={{ paddingTop: "200px" }} />
             </Col>
 
-            <Col lg="6">
+            <Col lg="4">
               <div className="car__info" style={{ paddingTop: "220px" }}>
                 <h2 className="section_title">{singleCarItem.carName}</h2>
 

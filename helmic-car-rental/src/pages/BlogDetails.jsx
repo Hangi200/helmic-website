@@ -23,30 +23,30 @@ const BlogDetails = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="8" md="8">
+            <Col lg="15" md="15">
               <div className="blog__details">
                 <img src={blog.imgUrl} alt="" className="w-100" />
                 <h2 className="section_title mt-4">{blog.title}</h2>
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
-                  <span className="blog__author">
+                  <span className="d-flex align-items-center gap-1 section_description">
                     <i class="ri-user-line"></i> {blog.author}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section_description">
                     <i class="ri-calendar-line"></i> {blog.date}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section_description">
                     <i class="ri-time-line"></i> {blog.time}
                   </span>
                 </div>
 
                 <p className="section_description">{blog.description}</p>
-                <h6 className="ps-5 fw-normal">
-                  <blockquote className="fs-4">{blog.quote}</blockquote>
+                <h6 className="">
+                  <p className="section_description">{blog.quote}</p>
                 </h6>
-                <p className="section_description">{blog.description}</p>
+                
               </div>
 
               <div className="comment__list mt-5">
@@ -58,9 +58,7 @@ const BlogDetails = () => {
                     <h6 className=" fw-bold">David Visa</h6>
                     <p className="section_description mb-0">14 July, 2022</p>
                     <p className="section_description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                      Thank you for the advice.
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
