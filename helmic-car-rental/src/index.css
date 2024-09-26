@@ -1,6 +1,6 @@
 
 /* =========== google fonts =====*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* base style */
 
@@ -8,12 +8,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "source sans 3", sans-serif; 
+    font-family: "Poppins", sans-serif;
 }
 
 /* pre define style*/
 h1,h2,h3,h4,h5,h6{
-    color: #000d6b;
+    color: #000c68;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -61,8 +61,7 @@ ul{
 
 section{
     padding: 50px 0px;
-    
-    
+   
 }
 
 .btn{
@@ -77,7 +76,7 @@ section{
 
 .btn:hover{
     color: #eff1f4;
-    background: #000d6b;
+    background: #f6f6f7;
 }
 
 @media only screen and (max-width:768px){
@@ -86,7 +85,7 @@ section{
     }
 
     .section_title{
-        font-size: 1.6rem;
+        font-size: 2.8rem;
     }
 
 

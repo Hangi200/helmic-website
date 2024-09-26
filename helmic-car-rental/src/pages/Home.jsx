@@ -55,7 +55,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="text-center mb-5">
               {/* <h6 className="section_subtitle"></h6> */}
-              <h2 className="section_title">Our Cars</h2>
+              <h2 className="section__title1">Our Cars</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -73,7 +73,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-4 text-center">
               {/* <h6 className="section_subtitle"></h6> */}
-              <h2 className="section_title">Our Clients</h2>
+              <h2 className="section__title1">Our Clients</h2>
             </Col>
 
             <Testimonial />
@@ -86,7 +86,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Explore our blogs</h6>
-              <h2 className="section_title">Explore our blogs</h2>
+              <h2 className="section__title1">Explore our blogs</h2>
             </Col>
 
             <BlogList />

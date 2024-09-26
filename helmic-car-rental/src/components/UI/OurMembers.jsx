@@ -116,8 +116,8 @@ const OurMembers = () => {
               </div>
             </div>
 
-            <h6 className="text-center mb-0 mt-3">{item.name}</h6>
-            <p className="section__description text-center">
+            <h6 className=" mb-0 mt-3">{item.name}</h6>
+            <p className="section__description">
               {item.experience}
             </p>
           </div>
