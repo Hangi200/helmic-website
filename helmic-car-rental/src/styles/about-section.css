@@ -2,6 +2,8 @@
   /* background: #000d6b; */
   height: fit-content;
   width: auto;
+  padding: 4rem 0 2rem;
+  align-items: center;
 }
 
 .section__subtitle{
@@ -41,6 +43,8 @@
     .about__img {
       margin-top: 100px;
       height: max-content;
+      width: 50%;
+      align-items: center;
     }
     .about__section-item{
       font-size: 1.2rem;
