@@ -25,11 +25,11 @@
   
   @media only screen and (max-width: 992px) {
     .about__section-content h2 {
-      font-size: 1.5rem;
+      font-size: 1.1rem;
     }
   
     .section__description i {
-      font-size: 1.8rem !important;
+      font-size: 1.5rem !important;
     }
 
     .about__img {
@@ -47,15 +47,16 @@
       align-items: center;
     }
     .about__section-item{
-      font-size: 1.2rem;
-      margin-bottom: 0;
+      font-size: 0.5rem;
+      margin-bottom: 1px;
       text-align: justify;
     }
     
     .about__section-item p {
-      font-size: 0.9rem;
-      margin-bottom: 0;
-      text-align: justify;
+      font-size: 0.8rem;
+      
+      
+      
     }
   }
   

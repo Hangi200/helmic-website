@@ -29,7 +29,7 @@ that will help your company to grow successfully.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
-                <p className="section_description d-flex align-items-center gap-1">
+                <p className="section_description d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Enjoy advantageous tax deductions.
                 </p>
 
