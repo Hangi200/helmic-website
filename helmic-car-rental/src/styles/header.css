@@ -217,7 +217,10 @@
     }
   }
 
+  /* @media only screen and (max-width: 1440px) {
+
   @media only screen and (max-width: 995px) {
+>>>>>>> bba4907fb1cfdd1737524453c84e0685d8664ffd
     .header__location img {
       width: 55%;
       height: auto;
@@ -225,4 +228,4 @@
       display: flexbox;
      
     }
-  }
+  } */
