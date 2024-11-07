@@ -4,7 +4,7 @@
     border-radius: 5px;
   }
   
-  .section__title{
+  .section_title{
     font-weight: 500;
     font-size: .8rem;
     color: #000d6b;
@@ -46,6 +46,7 @@
   
   .car__item-content h4 {
     font-size: 1.8rem;
+    align-items: center;
   }
   
   .car__item-content h6 {
@@ -57,6 +58,7 @@
     .car__item h4 {
       font-size: 1.1rem;
       margin-bottom: 0;
+
     }
   
     .car__item h6 {

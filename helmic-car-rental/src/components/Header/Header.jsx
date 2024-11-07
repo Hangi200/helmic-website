@@ -28,7 +28,7 @@ const navLinks = [
     display: "Contact",
   },
   {
-    path: "/other",
+    path: "/notFound",
     display: "Other Services",
   },
 ];

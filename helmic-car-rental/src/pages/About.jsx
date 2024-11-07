@@ -19,13 +19,13 @@ const About = () => {
       <section className="about__page-section">
         <Container>
           <Row>
-            <Col lg="6" md="6" sm="12">
+            {/* <Col lg="6" md="6" sm="12">
               <div className="about__page-img">
-                <img src={driveImg} alt="" className="w-100 rounded-3" />
+                <img src={driveImg} alt="" className="w-200 h-200 rounded-4" />
               </div>
-            </Col>
+            </Col> */}
 
-            <Col lg="6" md="6" sm="12">
+            <Col lg="16" md="10" sm="12">
               <div className="about__page-content">
                 <h2 className="section_title">
                   Our Vision
@@ -43,7 +43,8 @@ company is now able to offer useful advice on strategic vehicle planning to best
 suit the exacting requirements of many different types of company.
                 </p>
                 </div>
-                   
+                </Col>
+                <Col lg="16" md="16" sm="12">
               <div className="about__page-content">
                 <h2 className="section_title">
                   Our Mission
@@ -70,7 +71,7 @@ suit the exacting requirements of many different types of company.
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section_title">Our Members</h2>
+              <h2 className="section__title1">Our Members</h2>
             </Col>
             <OurMembers />
           </Row>

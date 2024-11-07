@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 1000;
   background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+   
 }
 
 .header_top {
@@ -217,10 +217,11 @@
     }
   }
 
+
   /* @media only screen and (max-width: 1440px) {
 
   @media only screen and (max-width: 995px) {
->>>>>>> bba4907fb1cfdd1737524453c84e0685d8664ffd
+
     .header__location img {
       width: 55%;
       height: auto;

@@ -1,5 +1,5 @@
 .blog__item {
-    border: 1px solid #7c8a972e;
+    border: 1px solid #7070702e;
   }
   
   .blog__time {
@@ -22,8 +22,8 @@
   }
   
   .blog__author {
-    color: #7c8a972e;
-    font-weight: 600;
+    color: #0303032e;
+    font-weight: 500;
   }
   
   .blog__author i {

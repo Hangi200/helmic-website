@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import aboutImg from "../../assets/all-images/150prado-car.png";
+import aboutImg from "../../assets/all-images/driver.jpeg";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -15,10 +15,10 @@ const AboutSection = ({ aboutClass }) => {
     >
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="14" md="14">
             <div className="about__section-content">
-              <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to Helmic Car Rental.</h2>
+              {/* <h4 className="section_title">About Us</h4> */}
+              <h2 className="section_subtitle">Welcome to Helmic Car Rental.</h2>
               <p className="section_description">
               Helmic Car Rental, is a member of Helmic Group Company Ltd. We not only pride
 ourselves on being a leading car rental company offering premium-quality cars and a
@@ -29,7 +29,7 @@ that will help your company to grow successfully.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
-                <p className="section_description d-flex align-items-center gap-2">
+                <p className="section_description d-flex align-items-center gap-1">
                   <i class="ri-checkbox-circle-line"></i> Enjoy advantageous tax deductions.
                 </p>
 
@@ -52,7 +52,7 @@ that will help your company to grow successfully.
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={aboutImg} alt="" className="w-500" />
             </div>
           </Col>
         </Row>
