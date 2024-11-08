@@ -29,7 +29,7 @@ const navLinks = [
   },
   {
     path: "/notFound",
-    display: "Other Services",
+    display: "Services",
   },
 ];
 
