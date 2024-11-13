@@ -13,7 +13,7 @@ const AboutSection = ({ aboutClass }) => {
           : { marginTop: "280px" }
       }
     >
-      <Container>
+      <Container className="container">
         <Row>
           <Col lg="14" md="14">
             <div className="about__section-content">
@@ -40,7 +40,7 @@ that will help your company to grow successfully.
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section_description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> There are no negative effects on your <br /> company’s interests or loans
+                  <i class="ri-checkbox-circle-line"></i> There are no negative <br /> effects on your company’s interests or loans
                 </p>
 
                 <p className="section_description d-flex align-items-center gap-2">

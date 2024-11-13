@@ -6,7 +6,7 @@
 
 *{
     margin: 0;
-    padding: 10;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h3,h4{
-    font-size: 1.8rem;
+    font-size: 0.7rem;
 }
 
 h5,h6{
@@ -59,8 +59,8 @@ ul{
     text-align: justify;
 }
 
-section{
-    padding: 50px 0px;
+.section{
+    padding: 10px 10px;
    
 }
 
@@ -80,26 +80,32 @@ section{
 }
 
 @media only screen and (max-width:768px){
-    section{
-        padding: 40px 0px;
+    .section{
+        padding: 10px 0px;
+        max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
     }
 
     .section_title{
         font-size: 2.8rem;
     }
-
-
     .section_subtitle{
         font-size:1.1rem ;
     }
-
-    *{
-        margin: right 190px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
+    
+    img {
+        max-width: 100%;
+        height: auto;
     }
-    
-    
 
+}
+
+@media only screen and (min-width:540px){
+    .section{
+        padding: 10px 10px;
+        max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    }
 }

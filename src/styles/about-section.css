@@ -2,7 +2,7 @@
   /* background: #000d6b; */
   height: fit-content;
   width: auto;
-  padding: 4rem 0 2rem;
+  padding: 0rem 0 2rem;
   align-items: center;
 }
 
@@ -40,10 +40,17 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .about__section{
+      display: grid;
+      gap: 5px;
+      margin: 14px;
+      
+    }
+    
     .about__img {
       margin-top: 100px;
       height: max-content;
-      width: 50%;
+      width: 100%;
       align-items: center;
     }
     .about__section-item{
@@ -64,4 +71,12 @@
     .about__section {
       margin-top: 280px;
     }
+
+    .about__img {
+      margin-top: 100px;
+      height: max-content;
+      width: 100%;
+      align-items: center;
+    }
   }
+

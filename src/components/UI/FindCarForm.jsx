@@ -21,7 +21,6 @@ const FindCarForm = () => {
 
         <FormGroup className="form__group">
           <input
-            className="journey__time"
             type="time"
             placeholder="Travel time"
             required
@@ -29,7 +28,7 @@ const FindCarForm = () => {
         </FormGroup>
         <FormGroup className="select__group">
           <select>
-            <option value="ac">AC Car</option>
+            <option value="ac" className="section_description">AC car</option>
             <option value="non-ac">Non AC Car</option>
           </select>
         </FormGroup>

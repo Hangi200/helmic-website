@@ -4,14 +4,20 @@
     border-radius: 5px;
   }
   
-  .section_title{
-    font-weight: 500;
-    font-size: .8rem;
+  .head{
+    font-weight: 400;
+    font-size: 0.7rem;
     color: #000d6b;
   }
   .car__item-info span i {
     color: #ffd700;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
+  }
+
+  .car__item-info span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    justify-content: space-between;
   }
   
   .car__item-btn {
@@ -21,12 +27,14 @@
     background: #000d6b;
     padding: 8px 8px;
     align-items: center;
+    justify-items:center;
   }
   
   .car__item-btn a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
+    font-size: 0.8rem;
   }
   
   .car__item-btn a:hover {
@@ -45,13 +53,14 @@
   }
   
   .car__item-content h4 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     align-items: center;
   }
   
   .car__item-content h6 {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 400;
   }
   
   @media only screen and (max-width: 992px) {
@@ -72,6 +81,7 @@
   
     .car__item-info span {
       font-size: 0.8rem;
+      font-weight: 400;
       justify-content: space-between;
     }
   

@@ -14,7 +14,7 @@ const CarItem = (props) => {
         </div>
 
         <div className="car__item-content mt-4">
-          <h4 className="section_title">{carName}</h4>
+          <h4 className="head">{carName}</h4>
           <h6 className="rent__price mt-2 section_subtitle">
             Tzs {price}.00 <span>/ Day</span>
           </h6>

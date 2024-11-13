@@ -1,10 +1,10 @@
 .find__cars-left {
-    background: linear-gradient(rgba(155, 155, 155, 0.5), rgba(68, 143, 255, 0.5)),
+    background: linear-gradient(rgba(0, 28, 200, 0.7), rgba(0, 22, 95, 0.7)),
       url("../assets/all-images/prado4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 65px 35px;
+    width: auto;
   }
   
   .find__cars-left h2 {
@@ -14,25 +14,29 @@
   }
   
   .form__group {
-    width: 30%;
+    width: 40%;
     margin-bottom: 0;
   }
   
   .form__group input {
     border: 1px solid #7c8a972a;
+    border-radius: 5px;
+  box-sizing: border-box;
     padding: 8px 12px;
-  
     width: 100%;
     outline: none;
   }
   .form__group input::placeholder {
-    color: #7c8a97;
+    color: #525252;
+    font-size: 0.8rem;
+    font-weight: 400;
+    
   }
   
   .form {
     background: #fff;
     padding-top: 55px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -57,7 +61,7 @@
   
   .hero__form {
     position: absolute;
-    bottom: -150px;
+    bottom: -200px;
     z-index: 11;
     width: 100%;
   }
@@ -69,14 +73,15 @@
   
   .journey__time::before {
     content: "Journey time";
-    margin-right: 0.8rem;
-    color: #7c8a97;
+    margin-right: 0.7rem;
+    color: #c5c5c5;
   }
   
   .find__car-btn {
     background: #000d6b !important;
     color: #fff !important;
     padding: 8px 15px;
+    font-size: 0.7rem;
     width: 100%;
     border: none;
     outline: none;
@@ -108,10 +113,14 @@
   
   @media only screen and (max-width: 768px) {
     .find__cars-left {
-      padding-top: 20px;
+      padding-top: 12px;
       padding-bottom: 0;
       background: #fff;
       text-align: center;
+    }
+
+    .find__cars-left h2 {
+      font-size: 1.5rem;
     }
   
     .form {

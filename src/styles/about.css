@@ -10,6 +10,9 @@
     .about__page-img {
       display: none;
     }
+    .about__page-content p {
+      font-size: 0.8rem;
+    }
 
 
   }
