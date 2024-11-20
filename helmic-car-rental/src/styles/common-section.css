@@ -1,0 +1,23 @@
+.common__section {
+    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6)),
+      url("../assets/all-images/driver.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 270px;
+    align-items: center;
+  }
+
+  .text-center{
+    text-align: center;
+    padding-bottom: 70px;
+    color: rgb(0, 0, 51);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .common__section{
+      padding-top: 160px;
+      background-position: center;
+    background-size: cover;
+    }
+  }
